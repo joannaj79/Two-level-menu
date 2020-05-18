@@ -1,0 +1,54 @@
+body {
+    background: grey;
+    margin: 0;
+    font-family: "Quicksand";
+}
+
+ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+nav {
+    background: #4577ED;
+    text-align: center;
+    transition: width 2s;
+}
+
+nav li {
+    display: inline-block;
+}
+ 
+ nav ul li {
+     min-width: 100px;
+     display: inline-block;
+}
+
+a {
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #3255a7;
+}
+
+nav ul ul li {
+    display:block;
+}
+
+nav li ul {
+    display: none;
+}
+
+nav li:hover ul {
+    display: block;
+    position: absolute;
+    background: #4577ED;
+}
+    
